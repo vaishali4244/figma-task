@@ -1,0 +1,62 @@
+.hero-container {
+  height: 65vh;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-content {
+    height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.p-main {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.p-green {
+  color: #4caf4f;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.sub-content {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.hero-btn {
+  background: #4caf4f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 8vw;
+  height: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  height: 48vh;
+  width: 23vw;
+}
+
+.hero-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   top: -15px;
+}
+
+.hero-dot .dot{
+    width: 2rem;
+    height: 0.5rem;
+}
