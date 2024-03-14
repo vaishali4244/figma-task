@@ -1,6 +1,4 @@
 .nav-container {
-  /* box-sizing: border-box; */
-  /* width: 100vw; */
   padding: 0 10vw;
   margin: 0;
   height: 10vh;
@@ -19,7 +17,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* width: 40vw; */
 }
 
 .nav-opt {
@@ -30,22 +27,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 
 .nav-img {
-  /* background: rgb(128, 38, 38) ; */
   height: 1rem;
   width: 1rem;
   z-index: 1;
   margin: 0.3rem;
-  /* color: white; */
 }
 
 .nav-btn {
   background: #4caf4f;
   color: white;
-  /* height: 2.25rem; */
   width: 13vw;
-  /* border: none; */
   border-radius: 3px;
 }

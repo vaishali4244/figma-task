@@ -1,0 +1,66 @@
+.market-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.market-container .community-content {
+  width: 80vw;
+}
+
+.market-p {
+  width: 45vw;
+  font-size: 0.9rem;
+  text-align: center;
+  position: relative;
+  top: -3vh;
+}
+
+.market-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.market-img {
+  height: 30vh;
+  width: 18vw;
+}
+
+.market-info {
+  width: 16vw;
+  height: 18vh;
+  display: inline-block;
+  background: #f5f7fa;
+  position: relative;
+  top: -9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  z-index: 5;
+}
+
+.info-p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 3px 10px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-p {
+  color: #4caf4f;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

@@ -17,7 +17,7 @@ const Navbar = () => {
                 <button className="nav-opt " href='#'>Blog</button>
                 <button className="nav-opt " href='#'>Pricing</button>
                 <button className="nav-opt nav-btn">Register Now   <img className='nav-img' src={require("../assets/images/Right.png")} alt="" /></button>
-                
+
             </div>
 
         </div>

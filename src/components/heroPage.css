@@ -7,7 +7,7 @@
 }
 
 .hero-content {
-    height: 40vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,7 +28,8 @@
 .sub-content {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1rem;
+  line-height: 1.2rem;
+  color: #717171;
 }
 
 .hero-btn {
@@ -38,6 +39,7 @@
   border-radius: 3px;
   width: 8vw;
   height: 2.25rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,15 +50,15 @@
   width: 23vw;
 }
 
-.hero-dot{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   position: relative;
-   top: -15px;
+.hero-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -15px;
 }
 
-.hero-dot .dot{
-    width: 2rem;
-    height: 0.5rem;
+.hero-dot .dot {
+  width: 2rem;
+  height: 0.5rem;
 }
