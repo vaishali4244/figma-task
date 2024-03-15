@@ -1,9 +1,12 @@
 .hero-container {
+  box-sizing: border-box;
+  width: 98.78vw;
   height: 65vh;
   background: #f5f7fa;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 10vw;
 }
 
 .hero-content {
@@ -66,8 +69,14 @@
 @media (max-width: 850px) {
   .hero-container {
     height: auto;
-    padding: 2vh 4vw;
+    padding-top: 25vh;
+    padding-left: 10vw;
     flex-direction: column;
+  }
+
+  .hero-content {
+    height: 40vh;
+    width: 80vw;
   }
 
   .hero-image img {
@@ -80,8 +89,12 @@
   }
 }
 
-/* @media (max-width: 350px) {
-  .hero-image img {
-    display: none;
+@media (max-width: 400px) {
+  .hero-container {
+    height: auto;
+    padding-top: 50vh;
+    flex-direction: column;
   }
-} */
+}
+
+

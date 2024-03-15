@@ -76,4 +76,8 @@
     height: 30vh;
     width: 40vw;
   }
+  
+  .sign-content .content{
+    line-height: 1.2rem;
+  }
 }

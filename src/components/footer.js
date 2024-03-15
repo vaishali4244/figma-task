@@ -32,15 +32,12 @@ const Footer = () => {
                     <p >Status</p>
                 </div>
                 <div className="content">
-                <div className="side-menu">
-                    <p className="footer-p">Stay up to date</p>
-                    <div className="input-bar">
-                    <input type="text" placeholder='Your email address' />
-                    <img src={require('../assets/images/send.png')} alt="" />
+                        <p className="footer-p">Stay up to date</p>
+                        <div className="input-bar">
+                            <input type="text" placeholder='Your email address' />
+                            <img src={require('../assets/images/send.png')} alt="" />
+                        </div>
 
-                    </div>
-                </div>
-   
                 </div>
             </div>
         </div>

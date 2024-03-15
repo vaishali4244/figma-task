@@ -29,16 +29,15 @@
   width: 2.2rem;
 }
 
-
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .client-container {
     height: auto;
     width: 95vw;
     padding: 2vh 2vw;
   }
 
-  .client-img{
+  .client-img {
     width: 90vw;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
