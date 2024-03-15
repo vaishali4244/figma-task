@@ -62,3 +62,26 @@
   width: 2rem;
   height: 0.5rem;
 }
+
+@media (max-width: 850px) {
+  .hero-container {
+    height: auto;
+    padding: 2vh 4vw;
+    flex-direction: column;
+  }
+
+  .hero-image img {
+    height: 30vh;
+    width: 40vw;
+  }
+
+  .hero-btn {
+    width: 8rem;
+  }
+}
+
+/* @media (max-width: 350px) {
+  .hero-image img {
+    display: none;
+  }
+} */

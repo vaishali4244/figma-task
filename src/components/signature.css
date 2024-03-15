@@ -1,53 +1,79 @@
-.sign-container{
-    height: 44vh;
-    width: 98.78vw;
-    background: #F5F7FA;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+.sign-container {
+  height: 44vh;
+  width: 98.78vw;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.sign-content{
-    width: 45vw;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start; 
+.sign-content {
+  width: 45vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
-.sign-content .content{
+
+.sign-content .content {
   font-size: 0.9rem;
   color: #717171;
   line-height: 1rem;
 }
 
-.sign-content .more-p{
+.sign-content .more-p {
   line-height: 1.5rem;
 }
 
-.sign-content .sub-content{
+.sign-content .sub-content {
   font-size: 0.8rem;
-  color: #89939E;
+  color: #89939e;
   line-height: 1rem;
 }
 
-.sign-clients{
-    width: 45vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2vh;
-}
-.sign-clients .client-img {
-    display: flex;
-    justify-content: space-between;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
- 
+.sign-clients {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vh;
 }
 
-.sign-image img{
-    height: 35vh;
-    width: 18vw;
+.sign-clients .client-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-image img {
+  height: 35vh;
+  width: 18vw;
+}
+
+@media (max-width: 1200px) {
+  .sign-container {
+    height: auto;
+  }
+
+  .sign-content {
+    width: 70vw;
+    padding: 5vh 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .sign-container {
+    flex-direction: column;
+    padding: 5vh 0;
+  }
+
+  .sign-image img {
+    height: 30vh;
+    width: 40vw;
+  }
 }

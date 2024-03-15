@@ -22,7 +22,6 @@
 
 .local-green{
     color:#4caf4f ;
-    
 }
 
 .local-data{
@@ -55,12 +54,40 @@
    color: #717171;
    font-weight: 400;
    font-size: 0.9rem;
-   /* line-height: 1rem; */
 }
+
 .local-user .number{
    color: #000000;
    font-size: 1.5rem;
    font-weight: 700;
    line-height: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .local-container{
+        height: auto;
+        flex-direction: column;
+        padding: 5vh 2vw;
+        text-align: center;
+    }
+
+    /* .local-container p{
+        text-align: center;
+    } */
+
+    .local-content {
+        height:auto;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .local-data{
+        width: 70vh;
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 

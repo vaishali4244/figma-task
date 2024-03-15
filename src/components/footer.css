@@ -1,5 +1,5 @@
 .footer-container{
-    height: 35vh;
+    height: 40vh;
     width: 98.78vw;
     box-sizing: border-box;
     background: #263238;
@@ -7,40 +7,41 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 10vw;
+    padding: 0 15vw;
+    /* margin-top: 5vh; */
 }
 
 .copyright{
-    height: 33vh;
+    height: 30vh;
     width: 18vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: flex-start;
 }
 
 .footer-category{
     width: 50vw;
+    height: 30vh;
     padding-left: 10vw;
-    height: 35vh;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    /* border: 1px solid green; */
+    align-items: flex-start;
 }
+
 .footer-category .content{
     width: 60vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
-    /* border: 1px solid green; */
 }
 
 .footer-container p{
 font-size: 0.7rem;
 line-height: 1.2rem;
+padding: 0.8vh 0;
 }
 
 .footer-container .footer-p{
@@ -92,3 +93,4 @@ padding-right: 1vw;
     height: 1rem;
     width: 1rem;
 }
+

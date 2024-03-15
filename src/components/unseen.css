@@ -19,3 +19,26 @@
 .unseen-content .sub-content {
   font-size: 0.8rem;
 }
+
+@media (max-width: 1100px) {
+  .unseen-container {
+    height: auto;
+    padding: 2vh 2vw;
+  }
+
+  .unseen-content {
+    width: 34vw;
+    height: auto;
+    padding-left: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .unseen-container {
+    flex-direction: column;
+  }
+
+  .unseen-content {
+    width: 80vw;
+  }
+}

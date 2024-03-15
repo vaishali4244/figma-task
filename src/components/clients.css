@@ -28,3 +28,17 @@
   height: 2.2rem;
   width: 2.2rem;
 }
+
+
+@media (max-width: 850px){
+  .client-container {
+    height: auto;
+    width: 95vw;
+    padding: 2vh 2vw;
+  }
+
+  .client-img{
+    width: 90vw;
+  flex-wrap: wrap;
+  }
+}

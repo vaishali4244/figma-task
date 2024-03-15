@@ -5,9 +5,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
-  top: -0.5rem;
-  padding-top: 2vh;
 }
 
 .community-content {
@@ -47,4 +44,23 @@
   font-size: 0.8rem;
   text-align: center;
   color: #717171;
+}
+
+@media (max-width: 750px) {
+  .community-container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .community-content {
+    width: 90vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .community-card {
+    width: 80vw;
+    height: auto;
+    margin: 2vh 0.8rem;
+  }
 }
