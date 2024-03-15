@@ -1,0 +1,53 @@
+.sign-container{
+    height: 44vh;
+    width: 98.78vw;
+    background: #F5F7FA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sign-content{
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+}
+.sign-content .content{
+  font-size: 0.9rem;
+  color: #717171;
+  line-height: 1rem;
+}
+
+.sign-content .more-p{
+  line-height: 1.5rem;
+}
+
+.sign-content .sub-content{
+  font-size: 0.8rem;
+  color: #89939E;
+  line-height: 1rem;
+}
+
+.sign-clients{
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+.sign-clients .client-img {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+ 
+}
+
+.sign-image img{
+    height: 35vh;
+    width: 18vw;
+}

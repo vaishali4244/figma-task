@@ -19,7 +19,6 @@ const Marketing = () => {
                                 <div className="more">
                                     <p className="more-p">Readmore </p>
                                     <img className='nav-img' src={require("../assets/images/Rightg.png")} alt="" />
-
                                 </div>
                             </div>
 

@@ -1,20 +1,21 @@
-.unseen-container{
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.unseen-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh 0;
 }
 
-.unseen-content{
-    width: 34vw;
-    height: 42vh;
-    padding-left: 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+.unseen-content {
+  width: 34vw;
+  height: 42vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.unseen-content .sub-content{
-    font-size: 0.8rem;
+.unseen-content .sub-content {
+  font-size: 0.8rem;
 }
